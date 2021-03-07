@@ -2,10 +2,12 @@
 
 Experimenting with [Dolt](https://www.dolthub.com/) a version controlled database.
 
-## Links
+## Why do I find dolt interesting?
 
-- [original hacker news post](https://news.ycombinator.com/item?id=22731928)
-- [twitter-db dolt repo](https://www.dolthub.com/repositories/buwilliams/twitter-db)
+- Managing SQL databases is always a pain. Dolt provides a better UX.
+- Therefore, prototyping ideas becomes easier, especially since Dolt supports CSV import. This allows me to gradually add features to the database.
+- For smaller projects, performance isn't the most important thing.
+- I love the idea that I have access to many data sources through Dolt's dolthub.
 
 ## Getting Started
 
@@ -16,9 +18,7 @@ Experimenting with [Dolt](https://www.dolthub.com/) a version controlled databas
 - Install deps `yarn install`
 - Start express server `yarn run dev:server`
 
-## Why do I find dolt interesting?
+## Links
 
-- Managing SQL databases is always a pain. Dolt provides a better UX.
-- Therefore, prototyping ideas becomes easier, especially since Dolt supports CSV import. This allows me to gradually add features to the database.
-- For smaller projects, performance isn't the most important thing.
-- I love the idea that I have access to many data sources through Dolt's dolthub.
+- [original hacker news post](https://news.ycombinator.com/item?id=22731928)
+- [twitter-db dolt repo](https://www.dolthub.com/repositories/buwilliams/twitter-db)
