@@ -1,0 +1,19 @@
+{
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:buwilliams/twitter-clone.git",
+  "author": "Buddy Williams <buddywilliams@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
