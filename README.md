@@ -20,8 +20,8 @@ Experimenting with [Dolt](https://www.dolthub.com/), a version controlled databa
 
 ## API
 
-- [/user](http://localhost:3001/user)
-- [/tweet](http://localhost:3001/tweet)
+- GET [/user](http://localhost:3001/user)
+- GET [/tweet](http://localhost:3001/tweet)
 
 ## Links
 
