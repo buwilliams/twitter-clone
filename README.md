@@ -1,6 +1,6 @@
 # Twitter Clone
 
-Experimenting with [Dolt](https://www.dolthub.com/) a version controlled database.
+Experimenting with [Dolt](https://www.dolthub.com/), a version controlled database.
 
 ## Why do I find dolt interesting?
 
