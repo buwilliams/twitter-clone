@@ -18,6 +18,11 @@ Experimenting with [Dolt](https://www.dolthub.com/), a version controlled databa
 - Install deps `yarn install`
 - Start express server `yarn run dev:server`
 
+## API
+
+- [/user](http://localhost:3001/user)
+- [/tweet](http://localhost:3001/tweet)
+
 ## Links
 
 - [original hacker news post](https://news.ycombinator.com/item?id=22731928)

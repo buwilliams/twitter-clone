@@ -7,13 +7,19 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const db = new MySql({
+    database: 'twitter_db',
+    host: 'localhost',
+    user: 'root',
+});
+
 app.get('/user', async function (req, res) {
-    let results = await app.locals.db.query('SELECT * FROM user');
+    let results = await db.query('SELECT * FROM user');
     res.json(results);
 });
 
 app.get('/tweet', async function (req, res) {
-    let results = await app.locals.db.query('SELECT * FROM tweet');
+    let results = await db.query('SELECT * FROM tweet');
     res.json(results);
 });
 
@@ -22,10 +28,5 @@ app.use(function (req, res, next) {
 });
 
 app.listen(port, async () => {
-    app.locals.db = new MySql({
-        database: 'twitter_db',
-        host: 'localhost',
-        user: 'root',
-    });
     console.log(`⚡️Listening at http://localhost:${port}`);
 });
