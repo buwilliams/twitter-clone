@@ -7,7 +7,7 @@ Experimenting with [Dolt](https://www.dolthub.com/), a version controlled databa
 - Managing SQL databases is always a pain. Dolt provides a better UX.
 - Therefore, prototyping ideas becomes easier, especially since Dolt supports CSV import. This allows me to gradually add features to the database.
 - For smaller projects, performance isn't the most important thing.
-- I love the idea that I have access to many data sources through Dolt's dolthub.
+- Having access to public databases through DoltHub is handy
 
 ## Getting Started
 
